@@ -4,14 +4,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 
-group :development, :test do
-  gem 'sqlite3'
-end
-
-# group :production do
-#   gem 'pg'
-# end
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
@@ -51,7 +43,8 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :test, :development do
+group :development, :test do
+  gem "sqlite3"
   gem "minitest"
   gem "rspec-rails", "2.14.1"
 end
@@ -60,5 +53,8 @@ group :test do
   gem "capybara", "2.2.1"
 end
 
+group :production do
+  gem "pg"
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
