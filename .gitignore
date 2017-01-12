@@ -1,2 +1,16 @@
+!.keep
+*.DS_Store
+*.swo
+*.swp
+/.bundle
+/.env
+/coverage
+/db/*.sqlite3
 /log
+/public/system
+/public/uploads
 /tmp
+/config/database.yml
+/.byebug_history
+*.un~
+.vscode
