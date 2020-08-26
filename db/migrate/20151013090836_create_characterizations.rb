@@ -1,4 +1,4 @@
-class CreateCharacterizations < ActiveRecord::Migration
+class CreateCharacterizations < ActiveRecord::Migration[4.2]
   def change
     create_table :characterizations do |t|
       t.references :movie, index: true

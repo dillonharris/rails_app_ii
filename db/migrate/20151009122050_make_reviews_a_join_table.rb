@@ -1,4 +1,4 @@
-class MakeReviewsAJoinTable < ActiveRecord::Migration
+class MakeReviewsAJoinTable < ActiveRecord::Migration[4.2]
   def up
   	Review.delete_all
   	remove_column :reviews, :name

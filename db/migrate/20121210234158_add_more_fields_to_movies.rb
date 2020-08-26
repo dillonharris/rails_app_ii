@@ -1,4 +1,4 @@
-class AddMoreFieldsToMovies < ActiveRecord::Migration
+class AddMoreFieldsToMovies < ActiveRecord::Migration[4.2]
   def change
     add_column :movies, :cast, :string
     add_column :movies, :director, :string

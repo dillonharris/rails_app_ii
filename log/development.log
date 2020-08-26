@@ -48168,3 +48168,776 @@ Started GET "/assets/arrow.png" for 127.0.0.1 at 2016-04-04 12:10:48 +0200
             FROM sqlite_temp_master
             WHERE name='index_reviews_on_movie_id' AND type='index'
 [0m
+Started GET "/" for ::1 at 2020-08-26 22:32:46 +0200
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.1.0) lib/active_record/connection_adapters/connection_specification.rb:188:in `rescue in spec'
+activerecord (5.1.0) lib/active_record/connection_adapters/connection_specification.rb:185:in `spec'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:880:in `establish_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:58:in `establish_connection'
+activerecord (5.1.0) lib/active_record/railtie.rb:124:in `block (2 levels) in <class:Railtie>'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:45:in `instance_eval'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:45:in `execute_hook'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:51:in `each'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+activerecord (5.1.0) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+activerecord (5.1.0) lib/active_record/base.rb:25:in `<top (required)>'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `require'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `block in require'
+activesupport (5.1.0) lib/active_support/dependencies.rb:258:in `load_dependency'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `require'
+activerecord (5.1.0) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-08-26 22:57:54 +0200
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.1.0) lib/active_record/connection_adapters/connection_specification.rb:188:in `rescue in spec'
+activerecord (5.1.0) lib/active_record/connection_adapters/connection_specification.rb:185:in `spec'
+activerecord (5.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:880:in `establish_connection'
+activerecord (5.1.0) lib/active_record/connection_handling.rb:58:in `establish_connection'
+activerecord (5.1.0) lib/active_record/railtie.rb:124:in `block (2 levels) in <class:Railtie>'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:45:in `instance_eval'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:45:in `execute_hook'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:51:in `each'
+activesupport (5.1.0) lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+activerecord (5.1.0) lib/active_record/base.rb:326:in `<module:ActiveRecord>'
+activerecord (5.1.0) lib/active_record/base.rb:25:in `<top (required)>'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `require'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `block in require'
+activesupport (5.1.0) lib/active_support/dependencies.rb:258:in `load_dependency'
+activesupport (5.1.0) lib/active_support/dependencies.rb:292:in `require'
+activerecord (5.1.0) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-08-26 22:59:57 +0200
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.0) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/dillonharris/.rbenv/versions/2.6.5/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  [1m[35m (57.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6426331425881030685);[0m
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20121121163535)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6426331425881030685)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6426331425881030685);[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20121121163535)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6426331425881030685)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6426331425881030685);[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20121121163535)
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "movies" ("id" serial NOT NULL PRIMARY KEY, "title" character varying, "rating" character varying, "total_gross" decimal, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35mSQL (4.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20121121163535"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddFieldsToMovies (20121121180707)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.5ms)[0m  [1m[35mALTER TABLE "movies" ADD "description" text[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "movies" ADD "released_on" date[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20121121180707"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddMoreFieldsToMovies (20121210234158)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "movies" ADD "cast" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "movies" ADD "director" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "movies" ADD "duration" character varying[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "movies" ADD "image_file_name" character varying[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20121210234158"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateReviews (20121217184756)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" serial NOT NULL PRIMARY KEY, "name" character varying, "stars" integer, "comment" text, "movie_id" integer, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE  INDEX  "index_reviews_on_movie_id" ON "reviews"  ("movie_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20121217184756"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20131206155220)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" serial NOT NULL PRIMARY KEY, "name" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20131206155220"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAdminToUsers (20151009073329)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (40.2ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT 'f'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151009073329"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to MakeReviewsAJoinTable (20151009122050)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[31mDELETE FROM "reviews"[0m
+  [1m[35m (4.9ms)[0m  [1m[35mALTER TABLE "reviews" DROP "name"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "reviews" ADD "user_id" integer[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151009122050"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateFavorites (20151012115256)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "favorites" ("id" serial NOT NULL PRIMARY KEY, "movie_id" integer, "user_id" integer, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_favorites_on_movie_id" ON "favorites"  ("movie_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_favorites_on_user_id" ON "favorites"  ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151012115256"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateGenres (20151013083821)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "genres" ("id" serial NOT NULL PRIMARY KEY, "name" character varying, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151013083821"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCharacterizations (20151013090836)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "characterizations" ("id" serial NOT NULL PRIMARY KEY, "movie_id" integer, "genre_id" integer, "created_at" timestamp, "updated_at" timestamp)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_characterizations_on_movie_id" ON "characterizations"  ("movie_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_characterizations_on_genre_id" ON "characterizations"  ("genre_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151013090836"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddSlugToMovies (20151015144853)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "movies" ADD "slug" character varying[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20151015144853"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-08-26 21:02:16.204591"], ["updated_at", "2020-08-26 21:02:16.204591"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(6426331425881030685)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-08-26 23:02:27 +0200
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (1.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:02:27.351052') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 1089ms (Views: 1061.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.debug-1ca0a3be67d80fbe7c39e82077d3a6d07903ef8eca9e4d313f0fc18332e25c3a.js" for ::1 at 2020-08-26 23:02:28 +0200
+Started GET "/assets/application.debug-5a2d67a522ea13d794fea044a8b9cc965f0e76075c19ef8030acc2363ce8acc8.css" for ::1 at 2020-08-26 23:02:28 +0200
+Started GET "/assets/background-66038593b8008ee8c43785600484ea0ccedda2aeaa2e3cac3d0f4b21a0a49366.jpg" for ::1 at 2020-08-26 23:02:28 +0200
+Started GET "/assets/logo-36d22669338e05ac07d68dd3818cd198d1253d0232602d5d69a3907b57bce5d1.png" for ::1 at 2020-08-26 23:02:28 +0200
+Started GET "/assets/arrow-2f82457c573fb234ed6fc656a028d94f258ce14299b4ce4198097e322cc75de9.png" for ::1 at 2020-08-26 23:02:28 +0200
+Started GET "/session/new" for ::1 at 2020-08-26 23:02:31 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2020-08-26 23:02:35 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms) [cache miss]
+  Rendered users/_form.html.erb (24.4ms) [cache miss]
+  Rendered users/new.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.2ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 100ms (Views: 61.4ms | ActiveRecord: 13.5ms)
+
+
+Started POST "/users" for ::1 at 2020-08-26 23:02:48 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tda34SORmMJSLD9ahUAbNLdZTsciKkcDcIFSBd/WlXXjQrB2cGw8YSDQLjWatuAgs+6Ec8FqWeW0gY2s28Ak9w==", "user"=>{"name"=>"Dillon", "email"=>"harrisdillon0@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Account"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "harrisdillon0@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Dillon"], ["email", "harrisdillon0@gmail.com"], ["password_digest", "$2a$12$fhKPt2dlUSRJajMtEIOoqu2tRASA59pPLdn.DutR5AfcXpkZ76p8K"], ["created_at", "2020-08-26 21:02:48.824943"], ["updated_at", "2020-08-26 21:02:48.824943"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 483ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/users/1" for ::1 at 2020-08-26 23:02:48 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (2.5ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 283ms (Views: 247.3ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/users/1" for ::1 at 2020-08-26 23:02:55 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 34ms (Views: 25.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2020-08-26 23:02:57 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.7ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:02:57.411834') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.1ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 38ms (Views: 30.3ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/users/1" for ::1 at 2020-08-26 23:02:58 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (3.9ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 37ms (Views: 24.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/movies" for ::1 at 2020-08-26 23:03:01 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (5.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:03:01.270339') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (7.7ms)
+  [1m[36mUser Load (7.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (9.8ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 51ms (Views: 28.7ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/users/1" for ::1 at 2020-08-26 23:03:02 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (15.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 52ms (Views: 42.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-26 23:03:04 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (1.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:03:04.952354') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.2ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 39ms (Views: 30.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for ::1 at 2020-08-26 23:03:06 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:03:06.522965') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.0ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 34ms (Views: 28.0ms | ActiveRecord: 3.0ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Iron Man"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  [1m[35mSQL (7.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Iron Man"], ["rating", "PG-13"], ["total_gross", "318412101.0"], ["created_at", "2020-08-26 21:03:22.254114"], ["updated_at", "2020-08-26 21:03:22.254114"], ["description", "When wealthy industrialist Tony Stark is forced to build an armored suit after a life-threatening incident, he ultimately decides to use its technology to fight against evil."], ["released_on", "2008-05-02"], ["cast", "Robert Downey Jr., Gwyneth Paltrow and Terrence Howard"], ["director", "Jon Favreau"], ["duration", "126 min"], ["image_file_name", "ironman.jpg"], ["slug", "iron-man"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Superman"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "superman"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Superman"], ["rating", "PG"], ["total_gross", "134218018.0"], ["created_at", "2020-08-26 21:03:22.266282"], ["updated_at", "2020-08-26 21:03:22.266282"], ["description", "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest super-hero."], ["released_on", "1978-12-15"], ["cast", "Christopher Reeve, Margot Kidder and Gene Hackman"], ["director", "Richard Donner"], ["duration", "143 min"], ["image_file_name", "superman.jpg"], ["slug", "superman"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Spider-Man"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "spider-man"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Spider-Man"], ["rating", "PG-13"], ["total_gross", "403706375.0"], ["created_at", "2020-08-26 21:03:22.271448"], ["updated_at", "2020-08-26 21:03:22.271448"], ["description", "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."], ["released_on", "2002-05-03"], ["cast", "Tobey Maguire, Kirsten Dunst and Willem Dafoe"], ["director", "Sam Raimi"], ["duration", "121 min"], ["image_file_name", "spiderman.jpg"], ["slug", "spider-man"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Batman"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "batman"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Batman"], ["rating", "PG-13"], ["total_gross", "251188924.0"], ["created_at", "2020-08-26 21:03:22.274699"], ["updated_at", "2020-08-26 21:03:22.274699"], ["description", "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker."], ["released_on", "1989-06-23"], ["cast", "Michael Keaton, Jack Nicholson and Kim Basinger"], ["director", "Tim Burton"], ["duration", "126 min"], ["image_file_name", "batman.jpg"], ["slug", "batman"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Catwoman"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "catwoman"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Catwoman"], ["rating", "PG-13"], ["total_gross", "40200000.0"], ["created_at", "2020-08-26 21:03:22.277484"], ["updated_at", "2020-08-26 21:03:22.277484"], ["description", "Patience Philips seems destined to spend her life apologizing for taking up space. Despite her artistic ability&mdash;she has a more than respectable career as a graphic designer."], ["released_on", "2004-07-23"], ["cast", "Halle Berry, Sharon Stone and Benjamin Bratt"], ["director", "Jean-Christophe 'Pitof' Comar"], ["duration", "101 min"], ["image_file_name", "catwoman.jpg"], ["slug", "catwoman"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Batman vs. Godzilla"], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "batman-vs-godzilla"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "total_gross", "created_at", "updated_at", "description", "released_on", "cast", "director", "duration", "image_file_name", "slug") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["title", "Batman vs. Godzilla"], ["rating", "PG-13"], ["total_gross", "387623910.0"], ["created_at", "2020-08-26 21:03:22.280250"], ["updated_at", "2020-08-26 21:03:22.280250"], ["description", "An epic battle between The Caped Crusader and the fire-breathing dinosaur Gojira. Hang on to your popcorn, kids!"], ["released_on", "2020-09-05"], ["cast", "Bruce Wayne, Gojira"], ["director", "Ishiro Honda"], ["duration", "211 min"], ["image_file_name", "batman-vs-godzilla.jpg"], ["slug", "batman-vs-godzilla"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "roger@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Roger Ebert"], ["email", "roger@example.com"], ["password_digest", "$2a$12$K7yMl3lms7X7R0qG4323uut9uDP6cF9DwNyInBXbesnWBD.sZQ672"], ["created_at", "2020-08-26 21:03:22.575194"], ["updated_at", "2020-08-26 21:03:22.575194"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "gene@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gene Siskel"], ["email", "gene@example.com"], ["password_digest", "$2a$12$FuF9j9BqHkWOwe9s8Uy.puaKbEmA96cNaJWgkiySLtrPoTxBvQ0H6"], ["created_at", "2020-08-26 21:03:22.791241"], ["updated_at", "2020-08-26 21:03:22.791241"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "peter@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Peter Travers"], ["email", "peter@example.com"], ["password_digest", "$2a$12$GyLwQVFj/W/gDcFqvwC5.euulMWLSYHPynZXzDSqqd5t7NMxzZqpC"], ["created_at", "2020-08-26 21:03:23.013995"], ["updated_at", "2020-08-26 21:03:23.013995"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "elvis@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Elvis Mitchell"], ["email", "elvis@example.com"], ["password_digest", "$2a$12$PHdr.estqYncTKiDRjrm5O6wqJwAprz9qw7IveftBay7HVTqqqe9q"], ["created_at", "2020-08-26 21:03:23.230065"], ["updated_at", "2020-08-26 21:03:23.230065"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Roger Ebert"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Gene Siskel"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Peter Travers"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Elvis Mitchell"], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Iron Man"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.4ms)[0m  [1m[32mINSERT INTO "reviews" ("stars", "comment", "movie_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["stars", 3], ["comment", "I laughed, I cried, I spilled my popcorn!"], ["movie_id", 1], ["created_at", "2020-08-26 21:03:23.280583"], ["updated_at", "2020-08-26 21:03:23.280583"], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reviews" ("stars", "comment", "movie_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["stars", 5], ["comment", "I'm a better reviewer than he is."], ["movie_id", 1], ["created_at", "2020-08-26 21:03:23.286826"], ["updated_at", "2020-08-26 21:03:23.286826"], ["user_id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reviews" ("stars", "comment", "movie_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["stars", 4], ["comment", "It's been years since a movie superhero was this fierce and this funny."], ["movie_id", 1], ["created_at", "2020-08-26 21:03:23.289429"], ["updated_at", "2020-08-26 21:03:23.289429"], ["user_id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."title" = $1 LIMIT $2[0m  [["title", "Superman"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("stars", "comment", "movie_id", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["stars", 5], ["comment", "It's a bird, it's a plane, it's a blockbuster!"], ["movie_id", 2], ["created_at", "2020-08-26 21:03:23.292829"], ["updated_at", "2020-08-26 21:03:23.292829"], ["user_id", 5]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Action"], ["LIMIT", 1]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Action"], ["created_at", "2020-08-26 21:03:23.307042"], ["updated_at", "2020-08-26 21:03:23.307042"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Comedy"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Comedy"], ["created_at", "2020-08-26 21:03:23.311640"], ["updated_at", "2020-08-26 21:03:23.311640"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Drama"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Drama"], ["created_at", "2020-08-26 21:03:23.314220"], ["updated_at", "2020-08-26 21:03:23.314220"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Romance"], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Romance"], ["created_at", "2020-08-26 21:03:23.316434"], ["updated_at", "2020-08-26 21:03:23.316434"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Thriller"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Thriller"], ["created_at", "2020-08-26 21:03:23.320701"], ["updated_at", "2020-08-26 21:03:23.320701"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Fantasy"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fantasy"], ["created_at", "2020-08-26 21:03:23.323672"], ["updated_at", "2020-08-26 21:03:23.323672"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Documentary"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Documentary"], ["created_at", "2020-08-26 21:03:23.326140"], ["updated_at", "2020-08-26 21:03:23.326140"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Adventure"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Adventure"], ["created_at", "2020-08-26 21:03:23.329113"], ["updated_at", "2020-08-26 21:03:23.329113"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Animation"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Animation"], ["created_at", "2020-08-26 21:03:23.331928"], ["updated_at", "2020-08-26 21:03:23.331928"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGenre Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "genres" WHERE "genres"."name" = $1 LIMIT $2[0m  [["name", "Sci-Fi"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "genres" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Sci-Fi"], ["created_at", "2020-08-26 21:03:23.334326"], ["updated_at", "2020-08-26 21:03:23.334326"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/movies" for ::1 at 2020-08-26 23:03:37 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:03:37.622432') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (30.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (1.4ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/catwoman-545f6a9c6d21efeb572d72dd3583fe5a23162779c354066ab815426410dc3df1.jpg" for ::1 at 2020-08-26 23:03:37 +0200
+Started GET "/assets/spiderman-931be3abe0a4ce52fae6dff6dc0398b786dde54fb8754a0be8f256aa87c6977b.jpg" for ::1 at 2020-08-26 23:03:37 +0200
+Started GET "/assets/batman-948f766e8a2951b6dd20c0690fc78dd812f8e8c1a9367e321e03bf272e8d4daf.jpg" for ::1 at 2020-08-26 23:03:37 +0200
+Started GET "/assets/superman-4f061ade992e6292bb12b9ccedbeab1f9cfcf391332950bd2dbf7ac44edf489b.jpg" for ::1 at 2020-08-26 23:03:37 +0200
+Started GET "/assets/ironman-f253bb60d452ab0f51941d748fb7fde3595217b7712263fe29d7ba900cb44ba3.jpg" for ::1 at 2020-08-26 23:03:37 +0200
+Started GET "/movies/iron-man" for ::1 at 2020-08-26 23:03:47 +0200
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"iron-man"}
+  [1m[36mMovie Load (4.3ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.9ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 AND "favorites"."movie_id" = $2 LIMIT $3[0m  [["user_id", 1], ["movie_id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mGenre Load (2.7ms)[0m  [1m[34mSELECT "genres".* FROM "genres" INNER JOIN "characterizations" ON "genres"."id" = "characterizations"."genre_id" WHERE "characterizations"."movie_id" = $1[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 82ms (Views: 33.8ms | ActiveRecord: 24.6ms)
+
+
+Started POST "/movies/iron-man/favorites" for ::1 at 2020-08-26 23:03:49 +0200
+Processing by FavoritesController#create as HTML
+  Parameters: {"authenticity_token"=>"ZvqnbKmWcq0L8hOnZxfodWPEIBsDldB7fgBr4v6+DvTIbqD7+mvWDnkOAsh44RNhZ3Pqr+DVzp26ALRL+qi/dg==", "movie_id"=>"iron-man"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "favorites" ("movie_id", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["movie_id", 1], ["user_id", 1], ["created_at", "2020-08-26 21:03:49.341368"], ["updated_at", "2020-08-26 21:03:49.341368"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/movies/iron-man
+Completed 302 Found in 18ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/movies/iron-man" for ::1 at 2020-08-26 23:03:49 +0200
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"iron-man"}
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.4ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 AND "favorites"."movie_id" = $2 LIMIT $3[0m  [["user_id", 1], ["movie_id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mGenre Load (0.7ms)[0m  [1m[34mSELECT "genres".* FROM "genres" INNER JOIN "characterizations" ON "genres"."id" = "characterizations"."genre_id" WHERE "characterizations"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1 LIMIT $2[0m  [["movie_id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 33ms (Views: 25.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/movies/iron-man/reviews" for ::1 at 2020-08-26 23:03:53 +0200
+Processing by ReviewsController#index as HTML
+  Parameters: {"movie_id"=>"iron-man"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.3ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  Rendering reviews/index.html.erb within layouts/application
+  [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered reviews/index.html.erb within layouts/application (29.1ms)
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 65ms (Views: 42.9ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/users/2" for ::1 at 2020-08-26 23:03:54 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (2.6ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 45ms (Views: 32.0ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/movies/iron-man" for ::1 at 2020-08-26 23:03:57 +0200
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"iron-man"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFavorite Load (0.8ms)[0m  [1m[34mSELECT  "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 AND "favorites"."movie_id" = $2 LIMIT $3[0m  [["user_id", 1], ["movie_id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.erb within layouts/application
+  [1m[35m (5.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mGenre Load (4.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres" INNER JOIN "characterizations" ON "genres"."id" = "characterizations"."genre_id" WHERE "characterizations"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mUser Exists (2.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1 LIMIT $2[0m  [["movie_id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (39.1ms)
+  Rendered layouts/_header.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 75ms (Views: 45.1ms | ActiveRecord: 21.9ms)
+
+
+Started GET "/movies/filter/recent" for ::1 at 2020-08-26 23:03:58 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"scope"=>"recent"}
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:03:58.633509') ORDER BY "movies"."released_on" DESC LIMIT $1[0m  [["LIMIT", 5]]
+  Rendered movies/index.html.erb within layouts/application (13.6ms)
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.9ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 43ms (Views: 34.2ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/movies/filter/upcoming" for ::1 at 2020-08-26 23:03:59 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"scope"=>"upcoming"}
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on > '2020-08-26 21:03:59.464107') ORDER BY "movies"."released_on" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (24.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.6ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 51ms (Views: 43.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/batman-vs-godzilla-061fbd579ba89cf563ea2b5a993841d8c9eb3582decfbe161c3e85ba875940bf.jpg" for ::1 at 2020-08-26 23:03:59 +0200
+Started GET "/movies/filter/flops" for ::1 at 2020-08-26 23:04:00 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"scope"=>"flops"}
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (6.9ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:04:00.372927') AND (total_gross < 50000000) ORDER BY "movies"."released_on" DESC, "movies"."total_gross" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (11.6ms)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.7ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 39ms (Views: 27.5ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/movies/filter/hits" for ::1 at 2020-08-26 23:04:00 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"scope"=>"hits"}
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:04:01.003909') AND (total_gross >= 300000000) ORDER BY "movies"."released_on" DESC, "movies"."total_gross" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (8.4ms)
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.7ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 38ms (Views: 28.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/movies" for ::1 at 2020-08-26 23:04:01 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (2.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:04:01.642253') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (16.5ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.4ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 46ms (Views: 38.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users/1" for ::1 at 2020-08-26 23:04:06 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mReview Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.8ms)[0m  [1m[34mSELECT "movies".* FROM "movies" INNER JOIN "favorites" ON "movies"."id" = "favorites"."movie_id" WHERE "favorites"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered users/show.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.2ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 42ms (Views: 31.0ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-08-26 23:04:09 +0200
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms) [cache miss]
+  Rendered users/_form.html.erb (4.7ms) [cache miss]
+  Rendered users/edit.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.9ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 41ms (Views: 30.5ms | ActiveRecord: 4.6ms)
+
+
+Started DELETE "/session" for ::1 at 2020-08-26 23:04:10 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Qf9i1R5AqpsRq+mBqXqXx14shlI8LbuIlymGzata3xLva2VCTb0OOGNX+O62jGzTWptM5t9tpW5TKVlkr0xukA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-26 23:04:10 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (0.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:04:10.742595') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 44ms (Views: 30.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-26 23:04:12 +0200
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.erb within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE (released_on <= '2020-08-26 21:04:12.845633') ORDER BY "movies"."released_on" DESC[0m
+  Rendered movies/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 30ms (Views: 25.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/iron-man" for ::1 at 2020-08-26 23:04:17 +0200
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"iron-man"}
+  [1m[36mMovie Load (1.8ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."slug" = $1 LIMIT $2[0m  [["slug", "iron-man"], ["LIMIT", 1]]
+  Rendering movies/show.html.erb within layouts/application
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT AVG("reviews"."stars") FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mGenre Load (0.8ms)[0m  [1m[34mSELECT "genres".* FROM "genres" INNER JOIN "characterizations" ON "genres"."id" = "characterizations"."genre_id" WHERE "characterizations"."movie_id" = $1[0m  [["movie_id", 1]]
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1 LIMIT $2[0m  [["movie_id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "favorites" ON "users"."id" = "favorites"."user_id" WHERE "favorites"."movie_id" = $1[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (21.3ms)
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_flashes.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_sidebar.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 53ms (Views: 37.5ms | ActiveRecord: 9.2ms)
+
+

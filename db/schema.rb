@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -13,65 +12,65 @@
 
 ActiveRecord::Schema.define(version: 20151015144853) do
 
-  create_table "characterizations", force: true do |t|
-    t.integer  "movie_id"
-    t.integer  "genre_id"
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "characterizations", id: :serial, force: :cascade do |t|
+    t.integer "movie_id"
+    t.integer "genre_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["genre_id"], name: "index_characterizations_on_genre_id"
+    t.index ["movie_id"], name: "index_characterizations_on_movie_id"
+  end
+
+  create_table "favorites", id: :serial, force: :cascade do |t|
+    t.integer "movie_id"
+    t.integer "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["movie_id"], name: "index_favorites_on_movie_id"
+    t.index ["user_id"], name: "index_favorites_on_user_id"
+  end
+
+  create_table "genres", id: :serial, force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "characterizations", ["genre_id"], name: "index_characterizations_on_genre_id"
-  add_index "characterizations", ["movie_id"], name: "index_characterizations_on_movie_id"
-
-  create_table "favorites", force: true do |t|
-    t.integer  "movie_id"
-    t.integer  "user_id"
+  create_table "movies", id: :serial, force: :cascade do |t|
+    t.string "title"
+    t.string "rating"
+    t.decimal "total_gross"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text "description"
+    t.date "released_on"
+    t.string "cast"
+    t.string "director"
+    t.string "duration"
+    t.string "image_file_name"
+    t.string "slug"
   end
 
-  add_index "favorites", ["movie_id"], name: "index_favorites_on_movie_id"
-  add_index "favorites", ["user_id"], name: "index_favorites_on_user_id"
-
-  create_table "genres", force: true do |t|
-    t.string   "name"
+  create_table "reviews", id: :serial, force: :cascade do |t|
+    t.integer "stars"
+    t.text "comment"
+    t.integer "movie_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer "user_id"
+    t.index ["movie_id"], name: "index_reviews_on_movie_id"
   end
 
-  create_table "movies", force: true do |t|
-    t.string   "title"
-    t.string   "rating"
-    t.decimal  "total_gross"
+  create_table "users", id: :serial, force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text     "description"
-    t.date     "released_on"
-    t.string   "cast"
-    t.string   "director"
-    t.string   "duration"
-    t.string   "image_file_name"
-    t.string   "slug"
-  end
-
-  create_table "reviews", force: true do |t|
-    t.integer  "stars"
-    t.text     "comment"
-    t.integer  "movie_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "user_id"
-  end
-
-  add_index "reviews", ["movie_id"], name: "index_reviews_on_movie_id"
-
-  create_table "users", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password_digest"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.boolean  "admin",           default: false
+    t.boolean "admin", default: false
   end
 
 end
