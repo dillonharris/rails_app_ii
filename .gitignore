@@ -6,7 +6,7 @@
 /.env
 /coverage
 /db/*.sqlite3
-/log
+/log/*
 /public/system
 /public/uploads
 /tmp
@@ -14,3 +14,5 @@
 /.byebug_history
 *.un~
 .vscode
+log
+log/*.log
